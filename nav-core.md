@@ -10,6 +10,8 @@ Important files:
 - `erpnext/hooks.py`
 - `erpnext/__init__.py`
 - `.pre-commit-config.yaml`
+- `erpnext/modules.txt`
+- `erpnext/exceptions.py`
 
 Key directories:
 
@@ -17,3 +19,9 @@ Key directories:
 - `erpnext/commands`
 - `erpnext/config`
 - `erpnext/startup`
+- `erpnext/change_log`
+- `erpnext/patches`
+- `erpnext/tests`
+- `erpnext/public`
+- `erpnext/templates`
+- `erpnext/www`
