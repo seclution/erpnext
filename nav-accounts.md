@@ -2,29 +2,26 @@
 
 Source directory: `erpnext/accounts`
 
-Main subfolders:
+Main subfolders and files:
 
-- README.md
-- __init__.py
-- accounts_dashboard
-- custom
-- dashboard_chart
-- dashboard_chart_source
-- deferred_revenue.py
-- doctype
-- form_tour
-- general_ledger.py
-- module_onboarding
-- notification
-- number_card
-- onboarding_step
-- page
-- party.py
-- print_format
-- print_format_field_template
-- report
-- test
-- test_party.py
-- utils.py
-- workspace
-
+- `README.md` – module overview and Payment Ledger design
+- `__init__.py`
+- `deferred_revenue.py`
+- `general_ledger.py`
+- `party.py`
+- `utils.py`
+- `accounts_dashboard/` – dashboard card configuration
+- `custom/` – custom scripts like Address hooks
+- `dashboard_chart/` – prebuilt analytics charts
+- `dashboard_chart_source/` – chart source Python and JS
+- `doctype/` – DocType definitions for accounts, invoices, journal entries, payments, etc.
+- `form_tour/` – interactive form tours (e.g. Accounts Settings)
+- `module_onboarding/` and `onboarding_step/` – onboarding JSON
+- `notification/` – email notification templates
+- `number_card/` – KPI cards such as incoming/outgoing bills
+- `page/` – module pages
+- `print_format/` and `print_format_field_template/` – print templates for vouchers
+- `report/` – financial reports like Balance Sheet, General Ledger, Profit and Loss
+- `test/` – unit tests
+- `test_party.py` – standalone party tests
+- `workspace/` – Workspace configurations
